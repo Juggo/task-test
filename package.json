@@ -12,8 +12,8 @@
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
-    "start": "node ./src/app.js",
-    "build": "webpack --config ./webpack.config.js --progress --colors",
+    "start": "npm run build",
+    "build": "webpack --config ./webpack.config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
