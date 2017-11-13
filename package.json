@@ -12,9 +12,8 @@
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
-    "build": "webpack -p --config ./webpack.prod.config.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js",
-    "start": "npm run build",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "webpack -p",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
