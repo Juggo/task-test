@@ -36,7 +36,8 @@ module.exports = {
           presets:["react", "es2015", "stage-0"]
         }
       }, 
-      { test: /\.less$/, loader: "style-loader!css-loader!less-loader" }
+      { test: /\.less$/, loader: "style-loader!css-loader!less-loader",
+        include: path.join(__dirname, 'src') }
     ]
   }
 }
