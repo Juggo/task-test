@@ -15,8 +15,7 @@ module.exports = {
         query: {
           presets:["react", "es2015", "stage-0"]
         }
-      }, 
-      { test: /\.less$/, loader: "style-loader!css-loader!less-loader" }
+      }
     ]
   },
   watch: true

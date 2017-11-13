@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import SearchForm from './components/SearchForm/SearchForm.js';
 import FlightsList from './components/FlightsList/FlightsList.js';
 
-require("./App.less");
+//require("./App.less");
 
 class App extends Component {
   constructor() {
