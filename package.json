@@ -15,8 +15,14 @@
   },
   "scripts": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
+=======
+    "build": "webpack -p --config ./webpack.prod.config.js",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js",
+    "start": "npm run build",
+>>>>>>> parent of 40404d7... change
 =======
     "build": "webpack -p --config ./webpack.prod.config.js",
     "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js",
