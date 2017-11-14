@@ -18,5 +18,10 @@ module.exports = {
       }, 
       { test: /\.less$/, loader: "style-loader!css-loader!less-loader" }
     ]
+<<<<<<< HEAD
   }
+=======
+  },
+  watch: true
+>>>>>>> parent of 40404d7... change
 };

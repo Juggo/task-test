@@ -14,9 +14,19 @@
     "less-loader": "4.0.2"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
+=======
+    "build": "webpack -p --config ./webpack.prod.config.js",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js",
+    "start": "npm run build",
+>>>>>>> parent of 40404d7... change
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5"
   }
 }
